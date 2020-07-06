@@ -20,7 +20,5 @@ dependencies {
 }
 
 test {
-    systemProperties = [
-            'junit.platform.output.capture.stdout': true
-    ]
+    useJUnitPlatform()
 }
